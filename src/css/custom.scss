@@ -36,6 +36,7 @@ body {
         font-size: $f-lg-size;
         line-height: $f-lg-height;
         margin-bottom: 10px;
+        text-shadow: 0px 0px 14px rgba(255, 255, 255, 0.6);
     }
 
     h6 {
@@ -43,6 +44,8 @@ body {
         font-size: $f-m-size;
         line-height: $f-m-height;
         margin-bottom: 20px;
+        text-shadow: 0px 0px 10px rgba(242, 159, 88, 0.6);
+
     }
 }
 
@@ -55,6 +58,13 @@ body {
     border: none;
     border-radius: 20px;
     padding: 10px 30px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 1s ease-in-out;
+
+    &:hover {
+        background-position: 0 100%;
+    }
 }
 
 .tag-line {
