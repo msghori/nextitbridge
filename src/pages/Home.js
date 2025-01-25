@@ -1,16 +1,14 @@
 import React from 'react';
 import "../css/custom.css";
+import {Container,Row,Col} from 'react-bootstrap';
 import HeaderNavbar from '../components/header-navbar/header-navbar';
 import homeImg from "../assets/images/home-image.png";
-
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Services from '../components/services/services';
 
 function Home() {
   return (
   <>
-  <div className='home-area'>
+  <div className='home-area' id='home'>
     <HeaderNavbar/>
     <section className='sec-home'>
     <Container>
@@ -30,6 +28,11 @@ function Home() {
         </Col>
         </Row>
         </Container>
+    </section>
+  </div>
+  <div className='sec-area' id='services'>
+  <section className="sec-services">
+      <Services/>
     </section>
   </div>
   </>

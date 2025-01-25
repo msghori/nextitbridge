@@ -1,6 +1,11 @@
 // colors
 $color-white: #fff;
+$color-black: #000;
 $color-orange: #f29f58;
+$color-shadow: rgba(0, 0, 0, 0.25);
+$color-purpleDark: #441752;
+$color-lightgray: rgba(255, 255, 255, 0.5);
+$bg-services: #fcf0f3;
 
 //padding
 $p-lr-2: 15px;
@@ -14,9 +19,12 @@ $f-lg-size: calc(54px + (54 - 24) * ((100vw - 300px) / (3500 - 300))) !important
 $f-lg-height: calc(58px + (58 - 28) * ((100vw - 300px) / (3500 - 300))) !important;
 
 //sub heading
-$f-m-size: calc(32px + (32 - 20) * ((100vw - 300px) / (3500 - 300))) !important;
-$f-m-height: calc(34px + (34 - 22) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-m-size: calc(28px + (28 - 20) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-m-height: calc(30px + (30 - 22) * ((100vw - 300px) / (3500 - 300))) !important;
 
+//content services
+$f-sm-size: calc(20px + (20 - 16) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-sm-height: calc(22px + (22 - 18) * ((100vw - 300px) / (3500 - 300))) !important;
 //gradient
 $grdnt-btn-moz: -moz-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);
 $grdnt-btn-webkit: -webkit-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);

@@ -30,13 +30,13 @@ body {
 }
 .heading-area h1 {
   font-size: calc(54px + 30 * (100vw - 300px) / 3200) !important;
-  font-family: calc(58px + 30 * (100vw - 300px) / 3200) !important;
+  line-height: calc(58px + 30 * (100vw - 300px) / 3200) !important;
   margin-bottom: 10px;
 }
 .heading-area h6 {
   color: #f29f58;
-  font-size: calc(32px + 12 * (100vw - 300px) / 3200) !important;
-  font-family: calc(34px + 12 * (100vw - 300px) / 3200) !important;
+  font-size: calc(28px + 8 * (100vw - 300px) / 3200) !important;
+  line-height: calc(30px + 8 * (100vw - 300px) / 3200) !important;
   margin-bottom: 20px;
 }
 

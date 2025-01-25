@@ -1,5 +1,4 @@
 @import 'variables';
-// @import 'mixin';
 
 @font-face {
     font-family: Prototype;
@@ -35,14 +34,14 @@ body {
 
     h1 {
         font-size: $f-lg-size;
-        font-family: $f-lg-height;
+        line-height: $f-lg-height;
         margin-bottom: 10px;
     }
 
     h6 {
         color: $color-orange;
         font-size: $f-m-size;
-        font-family: $f-m-height;
+        line-height: $f-m-height;
         margin-bottom: 20px;
     }
 }
@@ -59,7 +58,7 @@ body {
 }
 
 .tag-line {
-    color: rgba(255, 255, 255, 0.5);
+    color: $color-lightgray;
     margin: 0;
 }
 

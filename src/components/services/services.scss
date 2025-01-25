@@ -1,0 +1,94 @@
+@import '../../css/_variables.scss';
+
+.sec-area {
+    min-height: 100vh;
+}
+
+.sec-services {
+    padding-top: 40px;
+
+}
+
+.sub-heading {
+    color: $color-purpleDark;
+    margin-bottom: 3em;
+}
+
+.img-rbn {
+    margin-bottom: 8em;
+}
+
+.sec-services .card {
+    border: none;
+}
+
+.sec-services .card-text {
+    color: $color-black;
+    font-size: $f-sm-size;
+    line-height: $f-sm-height;
+    margin-bottom: 50px;
+    min-height: 7em;
+}
+
+.btn-services {
+    border: none !important;
+    padding: 30px 30px !important;
+    background-color: #441752 !important;
+    width: 100%;
+    min-height: 108px;
+}
+
+.sec-services .card-body {
+    border-radius: 8px;
+    padding: 30px 20px;
+    background: $bg-services;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-white;
+        box-shadow: 0px 0 20px $color-shadow;
+    }
+
+    &:hover .img-rbn {
+        display: none;
+    }
+
+    &:hover .btn-services {
+        background: url('../../assets/images/services-btn-bg.png') no-repeat !important;
+        background-size: cover !important;
+        width: 100%;
+        min-height: 167px;
+    }
+
+    &:hover .card-text {
+        margin-bottom: 125px !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .sec-services .card {
+        margin-bottom: 50px;
+    }
+
+    .sec-services .card-text {
+        min-height: auto;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .sec-services .card {
+        margin-bottom: 50px;
+    }
+
+    .btn-services {
+        min-height: 8em;
+    }
+
+    .sec-services .card-body:hover .card-text {
+        margin-bottom: 150px !important;
+    }
+
+    .sec-services .card-text {
+        min-height: 11em;
+    }
+}
