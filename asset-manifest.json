@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/nextitbridge/static/css/main.fd4c744e.css",
-    "main.js": "/nextitbridge/static/js/main.b2101280.js",
+    "main.css": "/nextitbridge/static/css/main.d08c38e3.css",
+    "main.js": "/nextitbridge/static/js/main.7c9830a8.js",
     "static/js/488.994f5633.chunk.js": "/nextitbridge/static/js/488.994f5633.chunk.js",
     "static/media/home-image.png": "/nextitbridge/static/media/home-image.0b44333c9eb16540be2a.png",
     "static/media/home_bg.jpg": "/nextitbridge/static/media/home_bg.f34005f008328fa9c6af.jpg",
+    "static/media/services-btn-bg.png": "/nextitbridge/static/media/services-btn-bg.8b27b4dfbdb9559d307e.png",
     "static/media/header-logo.svg": "/nextitbridge/static/media/header-logo.def5109c8ab8401789e7.svg",
     "static/media/Prototype.ttf": "/nextitbridge/static/media/Prototype.be9924a47c44090561d7.ttf",
     "index.html": "/nextitbridge/index.html",
     "static/media/download.svg": "/nextitbridge/static/media/download.b924472f3af714880b28.svg",
-    "main.fd4c744e.css.map": "/nextitbridge/static/css/main.fd4c744e.css.map",
-    "main.b2101280.js.map": "/nextitbridge/static/js/main.b2101280.js.map",
+    "main.d08c38e3.css.map": "/nextitbridge/static/css/main.d08c38e3.css.map",
+    "main.7c9830a8.js.map": "/nextitbridge/static/js/main.7c9830a8.js.map",
     "488.994f5633.chunk.js.map": "/nextitbridge/static/js/488.994f5633.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd4c744e.css",
-    "static/js/main.b2101280.js"
+    "static/css/main.d08c38e3.css",
+    "static/js/main.7c9830a8.js"
   ]
 }
