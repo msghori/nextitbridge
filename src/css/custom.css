@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Prototype;
+  src: url("/static/fonts/Prototype.ttf");
+}
+* html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #fff !important;
+  font-family: Prototype, sans-serif !important;
+}
+
+.home-area {
+  background: url("../assets/images/home_bg.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.heading-area {
+  padding: 10em 0;
+}
+.heading-area h1 {
+  font-size: calc(54px + 30 * (100vw - 300px) / 3200) !important;
+  font-family: calc(58px + 30 * (100vw - 300px) / 3200) !important;
+  margin-bottom: 10px;
+}
+.heading-area h6 {
+  color: #f29f58;
+  font-size: calc(32px + 12 * (100vw - 300px) / 3200) !important;
+  font-family: calc(34px + 12 * (100vw - 300px) / 3200) !important;
+  margin-bottom: 20px;
+}
+
+.btn-default {
+  color: #fff;
+  background: #f29f58;
+  background: linear-gradient(90deg, rgb(242, 159, 88) 0%, rgb(228, 111, 92) 49%, rgb(216, 69, 96) 100%);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.tag-line {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.hero-img {
+  width: 100%;
+  min-height: auto;
+  margin-top: 5em;
+  text-align: center;
+}/*# sourceMappingURL=custom.css.map */

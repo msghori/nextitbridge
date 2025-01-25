@@ -1,0 +1,23 @@
+// colors
+$color-white: #fff;
+$color-orange: #f29f58;
+
+//padding
+$p-lr-2: 15px;
+$p-lr-3: 30px;
+
+//margin
+$m-lr-auto: 0 auto;
+
+//large heading
+$f-lg-size: calc(54px + (54 - 24) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-lg-height: calc(58px + (58 - 28) * ((100vw - 300px) / (3500 - 300))) !important;
+
+//sub heading
+$f-m-size: calc(32px + (32 - 20) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-m-height: calc(34px + (34 - 22) * ((100vw - 300px) / (3500 - 300))) !important;
+
+//gradient
+$grdnt-btn-moz: -moz-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);
+$grdnt-btn-webkit: -webkit-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);
+$grdnt-btn: linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);
