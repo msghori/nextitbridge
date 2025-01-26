@@ -2,9 +2,11 @@
 $color-white: #fff;
 $color-black: #000;
 $color-orange: #f29f58;
+$color-pink: #d74260;
 $color-shadow: rgba(0, 0, 0, 0.25);
 $color-purpleDark: #441752;
 $color-lightgray: rgba(255, 255, 255, 0.5);
+$bg-white: #fff;
 $bg-services: #fcf0f3;
 
 //padding
@@ -21,6 +23,10 @@ $f-lg-height: calc(58px + (58 - 28) * ((100vw - 300px) / (3500 - 300))) !importa
 //sub heading
 $f-m-size: calc(28px + (28 - 20) * ((100vw - 300px) / (3500 - 300))) !important;
 $f-m-height: calc(30px + (30 - 22) * ((100vw - 300px) / (3500 - 300))) !important;
+
+// //sub heading
+// $f-m-size: calc(28px + (28 - 20) * ((100vw - 300px) / (3500 - 300))) !important;
+// $f-m-height: calc(30px + (30 - 22) * ((100vw - 300px) / (3500 - 300))) !important;
 
 //content services
 $f-sm-size: calc(20px + (20 - 16) * ((100vw - 300px) / (3500 - 300))) !important;

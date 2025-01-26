@@ -26,7 +26,7 @@ function HeaderNavbar() {
                     <NavDropdown.Item href="#services">Mobile Application</NavDropdown.Item>
                     <NavDropdown.Item href="#services">IT Services</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#action2">Company</Nav.Link>
+                <Nav.Link href="#company">Company</Nav.Link>
                 <Nav.Link href="#action2" className='me-0'>Contact</Nav.Link>          
             </Nav>
         </Navbar.Collapse>

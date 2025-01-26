@@ -1,9 +1,6 @@
 .sec-area {
-  min-height: 100vh;
-}
-
-.sec-services {
-  padding-top: 40px;
+  margin-bottom: 5em;
+  background: #fff;
 }
 
 .sub-heading {
@@ -13,10 +10,14 @@
 
 .img-rbn {
   margin-bottom: 8em;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .sec-services .card {
   border: none;
+  margin-bottom: 50px;
 }
 
 .sec-services .card-text {
@@ -33,12 +34,16 @@
   background-color: #441752 !important;
   width: 100%;
   min-height: 108px;
+  transition: all 5s ease-in-out;
+  position: relative !important;
 }
 
 .sec-services .card-body {
   border-radius: 8px;
-  padding: 30px 20px;
+  padding: 30px 15px;
   background: #fcf0f3;
+  height: 510px;
+  position: relative !important;
 }
 .sec-services .card-body:hover {
   cursor: pointer;
@@ -46,27 +51,50 @@
   box-shadow: 0px 0 20px rgba(0, 0, 0, 0.25);
 }
 .sec-services .card-body:hover .img-rbn {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  animation: slide-up-img 0.3s ease forwards;
 }
 .sec-services .card-body:hover .btn-services {
   background: url("../../assets/images/services-btn-bg.png") no-repeat !important;
   background-size: cover !important;
-  width: 100%;
   min-height: 167px;
+  animation: slide-up 0.5s ease forwards;
 }
 .sec-services .card-body:hover .card-text {
-  margin-bottom: 125px !important;
+  margin-bottom: 103px !important;
 }
 
-@media only screen and (max-width: 767px) {
+@keyframes slide-up {
+  0% {
+    bottom: -30%;
+  }
+  100% {
+    bottom: 0%;
+  }
+}
+@keyframes slide-up-img {
+  0% {
+    bottom: -30%;
+    margin-bottom: 8em;
+  }
+  100% {
+    bottom: 0%;
+    margin-bottom: 0em;
+  }
+}
+@media only screen and (max-width: 767.98px) {
   .sec-services .card {
     margin-bottom: 50px;
+  }
+  .sec-services .card-body {
+    height: auto;
   }
   .sec-services .card-text {
     min-height: auto;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023.98px) {
   .sec-services .card {
     margin-bottom: 50px;
   }
@@ -74,9 +102,28 @@
     min-height: 8em;
   }
   .sec-services .card-body:hover .card-text {
-    margin-bottom: 150px !important;
+    margin-bottom: 124px !important;
   }
   .sec-services .card-text {
     min-height: 11em;
+  }
+  .sec-services .card-body {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199.98px) {
+  .sec-services .card-body {
+    height: auto;
+  }
+  .sec-services .card-text {
+    min-height: 10em;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .sec-services .card-body {
+    height: auto;
+  }
+  .sec-services .card-text {
+    min-height: 10em;
   }
 }/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,82 @@
+.img-container {
+  background: rgb(255, 255, 255);
+}
+
+.img-container .imgBox {
+  width: 100%;
+  height: 300px;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+
+.img-container .imgBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc url("../../assets/images/f3.jpg") no-repeat;
+  background-size: contain;
+  border-radius: inherit;
+  background-position: 12% 0;
+  background-attachment: fixed;
+}
+
+.img-container .box-two {
+  width: 100%;
+  height: 300px;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+
+.img-container .box-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc url("../../assets/images/f4.jpg") no-repeat;
+  background-size: contain;
+  border-radius: inherit;
+  background-attachment: fixed;
+  background-position: 37% 0;
+}
+
+.txtBox {
+  height: 200px;
+  display: grid;
+  align-items: end;
+  border-radius: 40px;
+  font-size: calc(28px + 8 * (100vw - 300px) / 3200) !important;
+  line-height: calc(30px + 8 * (100vw - 300px) / 3200) !important;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  background: rgb(68, 23, 82);
+  background: linear-gradient(125deg, rgb(68, 23, 82) 0%, rgb(125, 36, 88) 49%, rgb(232, 61, 99) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#441752", endColorstr="#e83d63", GradientType=1);
+}
+
+.wcu-area p {
+  color: #441752;
+}
+
+.stats .num {
+  color: #d74260;
+}
+
+.stats div p:first-child {
+  font-size: 34px;
+}
+
+.stats div p + p {
+  font-size: 18px;
+}/*# sourceMappingURL=why-choose-us.css.map */

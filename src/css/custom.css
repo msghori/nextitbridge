@@ -2,31 +2,39 @@
   font-family: Prototype;
   src: url("/static/fonts/Prototype.ttf");
 }
-* html,
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+* html,
+body {
   height: 100%;
   min-height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
   color: #fff !important;
   font-family: Prototype, sans-serif !important;
+}
+
+.main-area {
+  background: rgb(255, 255, 255);
 }
 
 .home-area {
   background: url("../assets/images/home_bg.jpg") no-repeat top center;
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
+  margin-bottom: 5em;
 }
 
 .heading-area {
-  padding: 10em 0;
+  padding: 12em 0;
 }
 .heading-area h1 {
   font-size: calc(54px + 30 * (100vw - 300px) / 3200) !important;
@@ -59,7 +67,7 @@ body {
 
 .tag-line {
   color: rgba(255, 255, 255, 0.5);
-  margin: 0;
+  margin: 0 0 12px 0;
 }
 
 .hero-img {
