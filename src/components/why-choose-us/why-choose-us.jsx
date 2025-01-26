@@ -1,7 +1,6 @@
 import React from "react";
 import {Container,Row,Col} from 'react-bootstrap';
 import './why-choose-us.css';
-// import ribbon from '../../assets/images/ribbon.png';
 
 const WhyChooseUs =() =>{
     return(
