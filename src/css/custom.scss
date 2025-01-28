@@ -68,21 +68,23 @@ body {
 
 .btn-default {
     color: $color-white;
-    background: #f29f58;
-    background: $grdnt-btn-moz;
-    background: $grdnt-btn-webkit;
-    background: $grdnt-btn;
+    background: $btn-bg;
+    background: $btn-bg-miz;
+    background: $btn-bg-webkit;
+    background: $btn-bg-li;
     border: none;
     border-radius: 20px;
     padding: 10px 30px;
     background-size: 200% 100%;
-    background-position: 100% 0;
-    transition: background-position 1s ease-in-out;
+    background-position: 100% 100%;
+    transition: background-position 0.4s ease-in-out;
 
     &:hover {
         background-position: 0 100%;
     }
+
 }
+
 
 .tag-line {
     color: $color-lightgray;

@@ -7,6 +7,8 @@ $color-shadow: rgba(0, 0, 0, 0.25);
 $color-purpleDark: #441752;
 $color-lightgray: rgba(255, 255, 255, 0.5);
 $bg-white: #fff;
+$bg-orange: #f29f58;
+$bg-orangeDark: #f7923b;
 $bg-services: #fcf0f3;
 
 //padding
@@ -19,19 +21,23 @@ $m-lr-auto: 0 auto;
 //large heading
 $f-lg-size: calc(54px + (54 - 24) * ((100vw - 300px) / (3500 - 300))) !important;
 $f-lg-height: calc(58px + (58 - 28) * ((100vw - 300px) / (3500 - 300))) !important;
-
+//medium heading
+$f-md-size: calc(45px + (45 - 24) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-md-height: calc(48px + (48 - 28) * ((100vw - 300px) / (3500 - 300))) !important;
 //sub heading
 $f-m-size: calc(28px + (28 - 20) * ((100vw - 300px) / (3500 - 300))) !important;
 $f-m-height: calc(30px + (30 - 22) * ((100vw - 300px) / (3500 - 300))) !important;
 
-// //sub heading
-// $f-m-size: calc(28px + (28 - 20) * ((100vw - 300px) / (3500 - 300))) !important;
-// $f-m-height: calc(30px + (30 - 22) * ((100vw - 300px) / (3500 - 300))) !important;
-
 //content services
 $f-sm-size: calc(20px + (20 - 16) * ((100vw - 300px) / (3500 - 300))) !important;
 $f-sm-height: calc(22px + (22 - 18) * ((100vw - 300px) / (3500 - 300))) !important;
-//gradient
-$grdnt-btn-moz: -moz-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);
-$grdnt-btn-webkit: -webkit-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);
-$grdnt-btn: linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(228, 111, 92, 1) 49%, rgba(216, 69, 96, 1) 100%);
+
+//small
+$f-xs-size: calc(16px + (16 - 14) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-xs-height: calc(18px + (18 - 16) * ((100vw - 300px) / (3500 - 300))) !important;
+
+//gradient button
+$btn-bg: rgb(242, 159, 88);
+$btn-bg-miz: -moz-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(233, 130, 90, 1) 49%, rgba(219, 81, 94, 1) 100%);
+$btn-bg-webkit: -webkit-linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(233, 130, 90, 1) 49%, rgba(219, 81, 94, 1) 100%);
+$btn-bg-li: linear-gradient(90deg, rgba(242, 159, 88, 1) 0%, rgba(233, 130, 90, 1) 49%, rgba(219, 81, 94, 1) 100%);

@@ -7,20 +7,20 @@ const WhyChooseUs =() =>{
         <>
          <Container>
             <Row>
-                 <Col lg={6} md={6} sm={6} xs={12}>
+                 <Col lg={6} md={6} sm={12} xs={12}>
                     <Row>
-                        <Col lg={6} md={6} sm={12} xs={12} className="img-container">
+                        <Col lg={6} md={6} sm={6} xs={12} className="img-container">
                             <div className="imgBox"></div>
                             <div className="txtBox">Digital Excellence</div>
                         </Col>
-                        <Col lg={6} md={6} sm={12} xs={12} className="img-container">
+                        <Col lg={6} md={6} sm={6} xs={12} className="img-container">
                             <div className="txtBox">Enterprise Solutions</div>
                             <div className="box-two"></div>
 
                         </Col>
                     </Row>
                 </Col>
-                <Col lg={6} md={6} sm={6} xs={12}>
+                <Col lg={6} md={6} sm={12} xs={12}>
                 <div className="ps-lg-5 ps-sm-0 ">
                     <h2 className="sub-heading mb-4">Company_Why Choose Us</h2>
                     <p>We are experts in delivering innovative technology solutions that drive businesses toward success.

@@ -9,13 +9,13 @@
   background: transparent;
 }
 
-.nav-link {
+.header-navbar .nav-link {
   color: #fff !important;
   margin: 0 60px 0 0;
   padding-bottom: 3px !important;
   border-bottom: 3px solid transparent !important;
 }
-.nav-link:hover {
+.header-navbar .nav-link:hover {
   border-bottom: 3px solid #f29f58 !important;
 }
 

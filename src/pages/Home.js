@@ -5,6 +5,8 @@ import HeaderNavbar from '../components/header-navbar/header-navbar';
 import homeImg from "../assets/images/home-image.png";
 import Services from '../components/services/services';
 import WhyChooseUs from '../components/why-choose-us/why-choose-us';
+import ServicesText from '../components/services-text/services-text';
+import Footer from '../components/footer/footer.jsx';
 
 function Home() {
   return (
@@ -25,14 +27,14 @@ function Home() {
           </Col>
           <Col xs={12} md={6} sm={12}>
           <div className='hero-img'>
-              <img src={homeImg} alt='logoimg' className='img-fluid'/>
+              <img src={homeImg} alt='hero_image' className='img-fluid'/>
             </div>
           </Col>
           </Row>
           </Container>
       </section>
-      </div>
-      <div className='sec-area' id='services'>
+    </div>
+    <div className='ser-area' id='services'>
         <section className="sec-services">
             <Services/>
           </section>
@@ -40,10 +42,14 @@ function Home() {
     <div className='wcu-area' id='company'>
       <WhyChooseUs/>
     </div>
-    
+    <div className='sec-text-area'>
+      <ServicesText/>
     </div>
-  
-  
+    <div className='footer-sec'>
+      <Footer/>
+    </div>
+
+  </div>
   </>
   );
 }

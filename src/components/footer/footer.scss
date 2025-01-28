@@ -1,0 +1,105 @@
+@import '../../css/_variables.scss';
+
+.footer-container {
+    background: $bg-orangeDark;
+    overflow: hidden;
+}
+
+.footer-container .title-text {
+    color: $color-purpleDark;
+    font-size: $f-md-size;
+    line-height: $f-md-height;
+}
+
+.btn-contact {
+    font-size: $f-xs-size;
+    line-height: $f-xs-height;
+    border-radius: 40px !important;
+    color: $color-purpleDark !important;
+    background: $bg-orangeDark !important;
+    border: 1px solid $color-purpleDark !important;
+    padding: 10px 30px !important;
+
+    &:hover {
+        cursor: pointer;
+        color: $color-white !important;
+        border: 1px solid $color-white !important;
+    }
+}
+
+.f-holder {
+    padding: 6em 15px 6em;
+}
+
+.footer-content {
+    color: $color-purpleDark;
+    position: relative;
+
+
+    &:before {
+        content: "Bridge";
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translate(0%, -50%);
+        font-size: 17em;
+        color: rgba(249, 165, 73, 1);
+        white-space: nowrap;
+        z-index: 0;
+        pointer-events: none;
+        letter-spacing: 0.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .nav-holder {
+        padding: 0 0 2em 0;
+        border-bottom: 1px solid $color-purpleDark;
+        position: relative;
+        z-index: 1;
+    }
+
+    .nav-holder ul {
+        margin: 0;
+        padding: 0;
+        text-align: right;
+
+    }
+
+    .nav-holder ul li {
+        list-style: none;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5em;
+    }
+
+    .nav-holder ul li a {
+        color: $color-purpleDark !important;
+
+        &:hover {
+            color: $color-white !important;
+            border: none !important;
+            text-decoration: none !important;
+        }
+    }
+}
+
+.btn-box {
+    text-align: end;
+}
+
+.c-right {
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn-box {
+        margin-top: 20px !important;
+        text-align: center;
+    }
+
+    .footer-content .nav-holder ul li {
+        margin-left: 10px;
+    }
+}

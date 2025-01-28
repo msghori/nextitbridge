@@ -52,14 +52,14 @@ body {
 
 .btn-default {
   color: #fff;
-  background: #f29f58;
-  background: linear-gradient(90deg, rgb(242, 159, 88) 0%, rgb(228, 111, 92) 49%, rgb(216, 69, 96) 100%);
+  background: rgb(242, 159, 88);
+  background: linear-gradient(90deg, rgb(242, 159, 88) 0%, rgb(233, 130, 90) 49%, rgb(219, 81, 94) 100%);
   border: none;
   border-radius: 20px;
   padding: 10px 30px;
   background-size: 200% 100%;
-  background-position: 100% 0;
-  transition: background-position 1s ease-in-out;
+  background-position: 100% 100%;
+  transition: background-position 0.4s ease-in-out;
 }
 .btn-default:hover {
   background-position: 0 100%;
