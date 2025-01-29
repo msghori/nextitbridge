@@ -52,8 +52,8 @@ body {
 
 .btn-default {
   color: #fff;
-  background: rgb(242, 159, 88);
-  background: linear-gradient(90deg, rgb(242, 159, 88) 0%, rgb(233, 130, 90) 49%, rgb(219, 81, 94) 100%);
+  background-color: #f29f58;
+  background: linear-gradient(to right, #f29f58, #ec8d59, #da4e5f);
   border: none;
   border-radius: 20px;
   padding: 10px 30px;

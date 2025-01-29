@@ -95,7 +95,6 @@
   background: transparent !important;
   border: 1px solid #441752 !important;
 }
-
 .arrow-controls .carousel-button:hover {
   color: #f29f58;
   border: 1px solid #f29f58 !important;
@@ -126,7 +125,6 @@
   cursor: pointer;
   margin: 0 5px;
 }
-
 .carousel-button:hover {
   background-color: #555;
 }
@@ -135,10 +133,10 @@
   .sec-services .card {
     margin-bottom: 50px;
   }
-  .sec-services .card-body {
+  .sec-services .card .card-body {
     height: auto;
   }
-  .sec-services .card-text {
+  .sec-services .card .card-text {
     min-height: auto;
   }
   .carousel-controls {
@@ -149,10 +147,10 @@
   .sec-services .card {
     margin-bottom: 50px;
   }
-  .sec-services .card-body {
+  .sec-services .card .card-body {
     min-height: 550px;
   }
-  .sec-services .card-text {
+  .sec-services .card .card-text {
     min-height: 10em;
   }
   .carousel-controls {

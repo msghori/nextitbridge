@@ -9,23 +9,18 @@
 
 .header-navbar {
     background: transparent;
-}
 
-.header-navbar .nav-link {
-    color: $color-white !important;
-    margin: 0 60px 0 0;
-    padding-bottom: 3px !important;
-    border-bottom: 3px solid transparent !important;
+    .nav-link {
+        color: $color-white !important;
+        margin: 0 60px 0 0;
+        padding-bottom: 3px !important;
+        border-bottom: 3px solid transparent !important;
 
-    &:hover {
-        border-bottom: 3px solid $color-orange !important;
+        &:hover {
+            border-bottom: 3px solid $color-orange !important;
+        }
     }
 }
-
-// .navbar-nav .nav-item:hover .dropdown-menu {
-//     display: block !important;
-//     background: teal;
-// }
 
 @media only screen and (max-width: 767px) {
     .header-logo {
@@ -36,12 +31,12 @@
         margin-top: 15px;
         margin-left: auto;
         border: 2px solid $color-orange !important;
-    }
 
-    .navbar-toggler:focus {
-        text-decoration: none !important;
-        outline: 0 !important;
-        box-shadow: none !important;
+        &:focus {
+            text-decoration: none !important;
+            outline: 0 !important;
+            box-shadow: none !important;
+        }
     }
 
     .navbar-toggler-icon {

@@ -2,7 +2,6 @@
   background: #f7923b;
   overflow: hidden;
 }
-
 .footer-container .title-text {
   color: #441752;
   font-size: calc(45px + 21 * (100vw - 300px) / 3200) !important;

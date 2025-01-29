@@ -1,4 +1,18 @@
 //width
-@mixin max-width($maxWidth) {
-    max-width: $maxWidth;
+// @mixin max-width($maxWidth) {
+//     max-width: $maxWidth;
+// }
+
+@mixin btn-gradient($default, $color1, $color2, $color3) {
+    background-color: $default;
+    background: -moz-linear-gradient(to right, $color1, $color2, $color3);
+    background: -webkit-linear-gradient(to right, $color1, $color2, $color3);
+    background: linear-gradient(to right, $color1, $color2, $color3);
+}
+
+@mixin bg-gradient($default, $color1, $color2, $color3) {
+    background-color: $default;
+    background: -moz-linear-gradient(125deg, $color1, $color2, $color3);
+    background: -webkit-linear-gradient(125deg, $color1, $color2, $color3);
+    background: linear-gradient(125deg, $color1, $color2, $color3);
 }

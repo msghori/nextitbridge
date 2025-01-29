@@ -19,6 +19,11 @@ $p-lr-3: 30px;
 $m-lr-auto: 0 auto;
 
 //large heading
+$f-xl-size: calc(23px + (285 - 23) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-xl-height: calc(25px + (287 - 25) * ((100vw - 300px) / (3500 - 300))) !important;
+
+
+//large heading
 $f-lg-size: calc(54px + (54 - 24) * ((100vw - 300px) / (3500 - 300))) !important;
 $f-lg-height: calc(58px + (58 - 28) * ((100vw - 300px) / (3500 - 300))) !important;
 //medium heading

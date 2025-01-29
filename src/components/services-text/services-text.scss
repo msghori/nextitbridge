@@ -1,10 +1,11 @@
 @import "../../css/variables";
 
 .sec-text-area {
-    height: 100vh;
+    // height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .main-container {
@@ -13,6 +14,7 @@
     height: 100%;
     text-align: center;
     z-index: 0;
+    padding-bottom: 4em;
 }
 
 .list-holder {
@@ -24,34 +26,34 @@
     padding: 5em 0 0 0;
     margin: 0;
     text-align: right;
-}
 
-.heading-list li {
-    position: relative;
-}
+    li {
+        position: relative;
 
-.heading-list li .nav-link {
-    font-size: 6vw;
-    line-height: 7vw;
-    font-weight: bold;
-    margin: 0;
-    color: $color-purpleDark !important;
-    cursor: pointer;
-    position: relative;
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: none !important;
-    transition: color 0.3s ease;
-}
+        .nav-link {
+            font-size: 120px;
+            line-height: 142px;
+            font-weight: bold;
+            margin: 0;
+            color: $color-purpleDark !important;
+            cursor: pointer;
+            position: relative;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            display: inline-block;
+            text-decoration: none;
+            border-bottom: none !important;
+            transition: color 0.3s ease;
 
-.heading-list li .nav-link:hover,
-.heading-list li .nav-link:focus,
-.heading-list li .nav-link:active {
-    color: $color-orange !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
+            &:hover,
+            &:focus,
+            &:active {
+                color: $color-orange !important;
+                text-decoration: none !important;
+                border-bottom: none !important;
+            }
+        }
+    }
 }
 
 .changeImg {
@@ -59,7 +61,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100vh);
+    // height: calc(100vh);
+    height: 100%;
     background-size: cover;
     background-position: 0 0;
     opacity: 0;
@@ -80,18 +83,41 @@
 
     .heading-list {
         padding: 6em 0;
+
     }
 
     .heading-list li .nav-link {
         letter-spacing: 4px;
-        font-size: 7vw;
-        line-height: 10vw;
+        font-size: 23px;
+        line-height: 42px;
     }
 }
 
-@media only screen and (min-width:576px) and (max-width:1023.98px) {
+@media only screen and (min-width:576px) and (max-width:767.98px) {
     .heading-list li .nav-link {
-        letter-spacing: 5px;
+        letter-spacing: 0px;
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .heading-list {
+        padding-top: 2em;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991.98px) {
+    .heading-list li .nav-link {
+        font-size: 60px;
+        line-height: 62px;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1023.98px) {
+    .heading-list li .nav-link {
+        letter-spacing: 3px;
+        font-size: 90px;
+        line-height: 92px;
     }
 
     .heading-list {
@@ -102,9 +128,18 @@
 @media only screen and (min-width:1024px) and (max-width:1199.98px) {
     .heading-list li .nav-link {
         letter-spacing: 5px;
+        font-size: 90px;
+        line-height: 92px;
     }
 
     .heading-list {
         padding-top: 2em;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1399.98px) {
+    .heading-list li .nav-link {
+        font-size: 110px;
+        line-height: 112px;
     }
 }

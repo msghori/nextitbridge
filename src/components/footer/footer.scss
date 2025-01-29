@@ -3,13 +3,19 @@
 .footer-container {
     background: $bg-orangeDark;
     overflow: hidden;
+
+    .title-text {
+        color: $color-purpleDark;
+        font-size: $f-md-size;
+        line-height: $f-md-height;
+    }
 }
 
-.footer-container .title-text {
-    color: $color-purpleDark;
-    font-size: $f-md-size;
-    line-height: $f-md-height;
-}
+// .footer-container .title-text {
+//     color: $color-purpleDark;
+//     font-size: $f-md-size;
+//     line-height: $f-md-height;
+// }
 
 .btn-contact {
     font-size: $f-xs-size;
@@ -35,7 +41,6 @@
     color: $color-purpleDark;
     position: relative;
 
-
     &:before {
         content: "Bridge";
         position: absolute;
@@ -57,31 +62,32 @@
         border-bottom: 1px solid $color-purpleDark;
         position: relative;
         z-index: 1;
-    }
 
-    .nav-holder ul {
-        margin: 0;
-        padding: 0;
-        text-align: right;
+        ul {
+            margin: 0;
+            padding: 0;
+            text-align: right;
 
-    }
+            li {
+                list-style: none;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 5em;
 
-    .nav-holder ul li {
-        list-style: none;
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 5em;
-    }
+                a {
+                    color: $color-purpleDark !important;
 
-    .nav-holder ul li a {
-        color: $color-purpleDark !important;
-
-        &:hover {
-            color: $color-white !important;
-            border: none !important;
-            text-decoration: none !important;
+                    &:hover {
+                        color: $color-white !important;
+                        border: none !important;
+                        text-decoration: none !important;
+                    }
+                }
+            }
         }
     }
+
+
 }
 
 .btn-box {
