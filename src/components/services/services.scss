@@ -6,7 +6,6 @@
 
 .sub-heading {
     color: $color-purpleDark;
-    margin-bottom: 3em;
 }
 
 .img-rbn {
@@ -49,7 +48,7 @@
     &:hover {
         cursor: pointer;
         background-color: $color-white;
-        box-shadow: 0px 0 20px $color-shadow;
+        box-shadow: 0px 4px 15px $color-shadow;
     }
 
     &:hover .img-rbn {
@@ -93,7 +92,59 @@
     }
 }
 
-@media only screen and (max-width:767.98px) {
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.arrow-controls .carousel-button {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    color: $color-purpleDark;
+    background: transparent !important;
+    border: 1px solid $color-purpleDark !important;
+}
+
+.arrow-controls .carousel-button:hover {
+    color: $color-orange;
+    border: 1px solid $color-orange !important;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card {
+    padding: 10px;
+    min-width: 25%;
+}
+
+.carousel-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.carousel-button:hover {
+    background-color: #555;
+}
+
+
+
+@media only screen and (max-width:575.98px) {
     .sec-services .card {
         margin-bottom: 50px;
     }
@@ -105,6 +156,29 @@
     .sec-services .card-text {
         min-height: auto;
     }
+
+    .carousel-controls {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767.98px) {
+    .sec-services .card {
+        margin-bottom: 50px;
+    }
+
+    .sec-services .card-body {
+        min-height: 550px;
+    }
+
+    .sec-services .card-text {
+        min-height: 10em;
+    }
+
+    .carousel-controls {
+        margin-bottom: 1em;
+    }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1023.98px) {
@@ -146,6 +220,10 @@
 
     .sec-services .card-text {
         min-height: 10em;
+    }
 
+    .cardWidth {
+        width: 279px !important;
+        background: green;
     }
 }
