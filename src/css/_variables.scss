@@ -24,8 +24,9 @@ $f-xl-height: calc(25px + (287 - 25) * ((100vw - 300px) / (3500 - 300))) !import
 
 
 //large heading
-$f-lg-size: calc(54px + (54 - 24) * ((100vw - 300px) / (3500 - 300))) !important;
-$f-lg-height: calc(58px + (58 - 28) * ((100vw - 300px) / (3500 - 300))) !important;
+$f-lg-size: calc(35px + (120 - 35) * ((100vw - 300px) / 3200));
+$f-lg-height: calc(37px + (124 - 37) * ((100vw - 300px) / 3200));
+
 //medium heading
 $f-md-size: calc(45px + (45 - 24) * ((100vw - 300px) / (3500 - 300))) !important;
 $f-md-height: calc(48px + (48 - 28) * ((100vw - 300px) / (3500 - 300))) !important;

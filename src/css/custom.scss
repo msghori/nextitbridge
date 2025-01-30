@@ -87,4 +87,11 @@ body {
     text-align: center;
 }
 
+@media only screen and (min-width:2000px) and (max-width:100vw) {
+    h1 {
+        font-size: 80px !important;
+        line-height: 82px !important;
+    }
+}
+
 // home section css
