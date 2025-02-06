@@ -27,6 +27,9 @@
         }
     }
 
+    textarea {
+        resize: none;
+    }
 
     .btn-default {
         color: $color-white;

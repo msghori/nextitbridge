@@ -23,6 +23,9 @@
   outline: none;
   box-shadow: none;
 }
+.form-holder textarea {
+  resize: none;
+}
 .form-holder .btn-default {
   color: #fff;
   background-color: #f29f58;
