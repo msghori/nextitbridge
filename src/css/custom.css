@@ -34,7 +34,7 @@ body {
 }
 
 .heading-area {
-  padding: 12em 0;
+  padding: 7em 0;
 }
 .heading-area h1 {
   font-size: calc(35px + 85 * (100vw - 300px) / 3200);
@@ -67,7 +67,7 @@ body {
 
 .tag-line {
   color: rgba(255, 255, 255, 0.5);
-  margin: 0 0 12px 0;
+  margin-bottom: 7em;
 }
 
 .hero-img {
