@@ -7,6 +7,7 @@ import Services from '../components/services/services';
 import WhyChooseUs from '../components/why-choose-us/why-choose-us';
 import ServicesText from '../components/services-text/services-text';
 import Footer from '../components/footer/footer.jsx';
+import Email from '../components/email/email.jsx';
 
 function Home() {
   return (
@@ -44,6 +45,9 @@ function Home() {
     </div>
     <div className='sec-text-area'>
       <ServicesText/>
+    </div>
+    <div className='email-area'>
+      <Email/>
     </div>
     <div className='footer-sec'>
       <Footer/>

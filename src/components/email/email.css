@@ -1,0 +1,34 @@
+.email-area {
+  padding: 5em 0 8em;
+}
+
+.form-holder h1 {
+  color: #441752;
+  margin-bottom: 2em !important;
+}
+.form-holder input[type=text],
+.form-holder input[type=email],
+.form-holder textarea {
+  border: none;
+  outline: none;
+  line-height: 30px;
+  border-radius: 30px;
+  background: #f0f0f0 !important;
+}
+.form-holder textarea {
+  resize: none;
+}
+.form-holder .btn-default {
+  color: #fff;
+  background-color: #f29f58;
+  background: linear-gradient(to right, #f29f58, #ec8d59, #da4e5f);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 31px;
+  background-size: 200% 100%;
+  background-position: 100% 100%;
+  transition: background-position 0.4s ease-in-out;
+}
+.form-holder .btn-default:hover {
+  background-position: 0 100%;
+}/*# sourceMappingURL=email.css.map */

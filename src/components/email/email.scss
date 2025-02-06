@@ -1,0 +1,44 @@
+@import '../../css/_variables.scss';
+@import '../../css/_mixin';
+
+.email-area {
+    padding: 5em 0 8em;
+}
+
+.form-holder {
+    h1 {
+        color: $color-purpleDark;
+        margin-bottom: 2em !important;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        border: none;
+        outline: none;
+        line-height: 30px;
+        border-radius: 30px;
+        background: #f0f0f0 !important;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .btn-default {
+        color: $color-white;
+        @include btn-gradient(#f29f58, #f29f58, #ec8d59, #da4e5f);
+        border: none;
+        border-radius: 30px;
+        padding: 10px 31px;
+        background-size: 200% 100%;
+        background-position: 100% 100%;
+        transition: background-position 0.4s ease-in-out;
+
+        &:hover {
+            background-position: 0 100%;
+        }
+
+    }
+
+}
