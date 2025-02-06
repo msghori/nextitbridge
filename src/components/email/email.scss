@@ -13,17 +13,20 @@
 
     input[type="text"],
     input[type="email"],
+    input[type="number"],
     textarea {
         border: none;
         outline: none;
         line-height: 30px;
-        border-radius: 30px;
+        border-radius: 10px;
         background: #f0f0f0 !important;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
     }
 
-    textarea {
-        resize: none;
-    }
 
     .btn-default {
         color: $color-white;

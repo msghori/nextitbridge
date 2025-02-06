@@ -62,7 +62,7 @@ const Email = () => {
             <Form.Group className="mb-3" controlId="formPhone">
               <Form.Label style={{ color: "black" }}>Phone</Form.Label>
               <Form.Control
-                type="text"
+                type="number"
                 placeholder=""
                 name="phone"
                 value={formData.phone}
@@ -95,7 +95,7 @@ const Email = () => {
                 onChange={handleChange}
               />
             </Form.Group>
-            <Button className="btn-default btn-connect float-end">
+            <Button className="btn-default btn-connect float-end" type="submit">
               Send Message
             </Button>
           </Col>

@@ -8,15 +8,20 @@
 }
 .form-holder input[type=text],
 .form-holder input[type=email],
+.form-holder input[type=number],
 .form-holder textarea {
   border: none;
   outline: none;
   line-height: 30px;
-  border-radius: 30px;
+  border-radius: 10px;
   background: #f0f0f0 !important;
 }
-.form-holder textarea {
-  resize: none;
+.form-holder input[type=text]:focus,
+.form-holder input[type=email]:focus,
+.form-holder input[type=number]:focus,
+.form-holder textarea:focus {
+  outline: none;
+  box-shadow: none;
 }
 .form-holder .btn-default {
   color: #fff;
