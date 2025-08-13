@@ -52,7 +52,7 @@ const Email = () => {
               <Form.Control
                 type="text"
                 placeholder=""
-                name="user_name"
+                name="name"
                 value={formData.name}
                 onChange={handleChange}
               />
@@ -64,7 +64,7 @@ const Email = () => {
               <Form.Control
                 type="number"
                 placeholder=""
-                name="user_phone"
+                name="phone"
                 value={formData.phone}
                 onChange={handleChange}
               />
@@ -76,7 +76,7 @@ const Email = () => {
               <Form.Control
                 type="email"
                 placeholder=""
-                name="user_email"
+                name="email"
                 value={formData.email}
                 onChange={handleChange}
               />
