@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import emailjs from "emailjs-com";
-import './email.css';
+import "./email.css";
 const Email = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -43,16 +43,16 @@ const Email = () => {
     <Container>
       <Form onSubmit={handleSubmit} className="form-holder">
         <Row>
-        <Col xs={12}>
-        <h1>Let's Get In Touch </h1>
-        </Col>
+          <Col xs={12}>
+            <h1>Let's Get In Touch </h1>
+          </Col>
           <Col>
             <Form.Group className="mb-3" controlId="formName">
               <Form.Label style={{ color: "black" }}>Name</Form.Label>
               <Form.Control
                 type="text"
                 placeholder=""
-                name="name"
+                name="user_name"
                 value={formData.name}
                 onChange={handleChange}
               />
@@ -64,7 +64,7 @@ const Email = () => {
               <Form.Control
                 type="number"
                 placeholder=""
-                name="phone"
+                name="user_phone"
                 value={formData.phone}
                 onChange={handleChange}
               />
@@ -76,7 +76,7 @@ const Email = () => {
               <Form.Control
                 type="email"
                 placeholder=""
-                name="email"
+                name="user_email"
                 value={formData.email}
                 onChange={handleChange}
               />
